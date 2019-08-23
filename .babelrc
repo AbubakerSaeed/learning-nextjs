@@ -1,0 +1,19 @@
+{
+  "presets": ["next/babel"],
+  "plugins": [
+    [
+      "babel-plugin-styled-components",
+      {
+
+        "ssr": true,
+
+        // will add name of the component along class, useful if debugging in react dev tools
+        "displayName": false,
+
+        // will add file name along class
+        // displayName should be true otherwise fileName cannot be change and will be false
+        "fileName": true
+      }
+    ]
+  ]
+}
