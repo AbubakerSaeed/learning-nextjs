@@ -1,6 +1,5 @@
-module.export = {
-  // directory (default .next)
-  distDir: 'build',
-
-  pageExtensions: ["jsx", "js"]
+module.exports = {
+  distDir: 'build', // directory (defaults .next)
+  pageExtensions: ["jsx", "js"],
+  compression: true, // defaults true, just in case i want to change
 }
