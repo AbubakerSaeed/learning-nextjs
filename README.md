@@ -1,7 +1,7 @@
-# What I'm learning or will learn:
+# Learning:
 
-- [] Next.js
+- [x] Next.js
 - CSS-In-JS
-  - [] styled-jsx
-  - [] styled-components
-- [] MDX
+  - [ ] styled-jsx
+  - [ ] styled-components
+- [ ] MDX
